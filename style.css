@@ -15,6 +15,7 @@ h1 {
       body{
           background-color: navy;
       }
+/* bonus 2 */
       #two{
           color: navy;
       }
@@ -35,7 +36,6 @@ h1 {
     #one{
         border: 10px dashed gray;
     }
-/* bonus 2 */
     #three{
         border: 10px dotted gray;
     }
