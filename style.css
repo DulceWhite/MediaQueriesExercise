@@ -1,0 +1,83 @@
+h1 {
+    color: gray;
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  /* START BELOW THIS LINE */
+
+/* 1 */
+  @media (max-width: 800px){
+      body{
+          background-color: navy;
+      }
+      #two{
+          color: navy;
+      }
+  }
+/* 2 */
+  @media (max-width: 600px){
+      body{
+          background-color: orange;
+
+      }
+/* bonus 2 */
+      #two{
+          color:orange;
+      }
+}
+/* 3 */
+@media (min-width: 600px) and (max-height: 400px){
+    #one{
+        border: 10px dashed gray;
+    }
+/* bonus 2 */
+    #three{
+        border: 10px dotted gray;
+    }
+}
+/* 4 */
+@media (min-width: 900px), (min-height: 500px){
+    #two{
+        border-top: 10px solid gray;
+    }
+}
+
+/* 5 */
+@media (orientation: landscape){
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+}
+/* 6 */
+@media (orientation: portrait) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* BONUS */
+/* 1 */
+@media print{
+    body{
+        color: green;
+        text-transform: uppercase;
+    }
+}
+/* 2 */
+/* see above */
+
+/* 3 */
+@media (max-width: 775px) and (min-width:750px) and (max-height: 575px) and (min-height: 550px){
+    body{
+        font-style: italic;
+    }
+
+}
